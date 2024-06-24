@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            float: left;
+            width: 20%;
+            background: #f0f0f0;
+            padding: 10px;
+            height: 100vh; /* Adjust this based on your content */
+            box-sizing: border-box;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        section {
+            float: left;
+            width: 60%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        footer {
+            clear: both;
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Header</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Sidebar Link 1</a></li>
+        <li><a href="#">Sidebar Link 2</a></li>
+        <li><a href="#">Sidebar Link 3</a></li>
+        <li><a href="#">Sidebar Link 4</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Main Content Area</h2>
+    <p>This is where your main content goes. You can add paragraphs, images, forms, etc. here.</p>
+</section>
+
+<footer>
+    <p>Footer &copy; 2024</p>
+</footer>
+
+</body>
+</html>
